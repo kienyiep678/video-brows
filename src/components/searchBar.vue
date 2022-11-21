@@ -10,6 +10,7 @@ export default {
 
   methods: {
     onInput: function (event) {
+      console.log("git test");
       // console.log(event.target.value);
       this.$emit("termChange", event.target.value);
     },
